@@ -1,0 +1,159 @@
+
+/* NAVBAR */
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  height: 90px;
+  top: 0;
+  left:0;
+  transition: all 0.7s;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  z-index: 4; 
+}
+
+
+
+.Logo {
+  width: 325px;
+  padding-left: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.NavbarLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 7%;
+  font-weight: 500;
+  font-size: 22px;
+}
+.NavbarLinks li{
+  list-style: none;
+}
+
+.fillColor {
+  fill: #4b4b4b;
+}
+
+.liChild{
+  padding: 2px 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #4b4b4b;
+  filter: drop-shadow(1px 1px 15px #ff0000);
+}
+
+
+
+.liChild::after {
+  background-color: #000000;
+  content: "";
+  position: absolute;
+  height: 3px;
+  left: 5px;
+  bottom: 0;
+  width: 0px;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+.liChild:hover:after {
+  width: 95%;
+}
+
+.Hamburger {
+  display: none;
+}
+
+
+@media (max-width: 800px) {
+  .Navbar {
+    width: 100%;
+  }
+
+  .NavbarLinks {
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    inset: 0 0 0 50%;
+    gap: 50px;
+    height: 100vh;
+    padding-top: max(5%, 100px);
+    transition: all 0.7s;
+    transform: translateX(100%);
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+
+  }
+
+  .showNavbar {
+    transform: translateX(0);
+  }
+
+  .Hamburger {
+    display: block;
+    z-index: 2;
+    padding: 5px;
+    padding-right: 7%;
+    cursor: pointer;
+  }
+
+  .bar {
+    display: block;
+    background-color: #4b4b4b;
+    border-radius: 50px;
+    height: 2.5px;
+    width: 30px;
+    margin: 6px;
+    transition: 0.5s;
+  }
+  .barOne {
+    rotate: -225deg;
+    position: relative;
+    top: 4px;
+    transition: 0.5s;
+  }
+  .barTwo {
+    display: none;
+  }
+  .barThree {
+    position: relative;
+    bottom: 4px;
+    rotate: 225deg;
+    transition: 0.5s;
+  }
+}
+
+
+
+/* ProjectCard */
+
+.bton1{
+	color: #000000;
+	text-decoration: none;
+  font-weight: 500;
+  border: 2px solid #000000;
+  border-radius: 2rem;
+  }
+  
+.bton1:hover{
+	color: #ffffff;
+	background-color: #000000;
+}
