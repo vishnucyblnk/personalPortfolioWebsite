@@ -15,7 +15,7 @@ function VideoDisp({youtubeLink,projectName}) {
 
   return (
     <>
-        <button onClick={handleShow} className="bton1 p-2 " >View Demo Video</button>
+        <button onClick={handleShow} className="bton1 p-2 bg-transparent" >View Demo Video</button>
         <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} size='lg' Centered>
             <Modal.Header closeButton className='border-dark bg-dark pb-0' data-bs-theme="dark">
                 <Modal.Title className='fw-bold' style={{color:'#4b4b4b'}}>{projectName}</Modal.Title>
