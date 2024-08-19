@@ -5,7 +5,6 @@ import { fadeInDown } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 import './StylePages.css';
 import { Link } from 'react-router-dom';
-import resumePdf from '../Pdf/dummy.pdf';
 
 const fadeInDownAnimation = keyframes`${fadeInDown}`;
 const AnimatedDiv = styled.div`
@@ -13,6 +12,8 @@ const AnimatedDiv = styled.div`
 `;
 
 function About() {
+
+    const resumePdf = 'https://drive.google.com/file/d/1QuAXE8HuMAofummSO17qbH76Br9bMil6/view?usp=sharing';
 
     return (
         <>
@@ -26,7 +27,8 @@ function About() {
                 <h3 className='d-flex justify-content-start' style={{ color: '#4b4b4b' }}>What's Next ?</h3>
                 <h6 className='pb-4 text-black fs-5'>I'm currently seeking opportunities to apply my skills in a professional setting. I'm excited about the possibility of working with a dynamic team and contributing to impactful projects. If you have an opportunity that aligns with my skills and interests, I'd love to hear from you!</h6>
 
-                <Link to={resumePdf} download='VishnuResume.pdf' target='_blank' className="fs-5 bton p-2"><BsFiletypePdf/> Dowload Resume <GoArrowDown/></Link>
+                <Link className="fs-4 bton p-2" to={resumePdf} target='_blank' rel="noopener noreferrer"><BsFiletypePdf/> Dowload / View Resume <GoArrowDown/></Link>
+
             </AnimatedDiv>
         </>
 

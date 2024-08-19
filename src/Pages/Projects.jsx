@@ -14,25 +14,29 @@ const AnimatedDiv = styled.div`
 
 
 function Projects() {
+
     const allProject = [
         {
             projectName: 'Hospital Management App',
-            projectDesc: 'A fully functional Responsive project based on Hospital Management System which Manages all the things associated with the hospital including appointment, consultations etc.',
+            projectDesc: 'A fully responsive Hospital Management System that efficiently manages all hospital operations, including patient appointments, consultations, and medical records. This integrated solution streamlines workflows across departments, enhancing overall patient care and administrative efficiency.',
             projectTools: 'ReactJS,Javascript, NodeJS ,ExpressJS, MongoDB, Redux',
             projectImage: hmsImage,
-            websiteLink: 'https://hospitalmanagementsystem-vishnu-nair-bs-projects.vercel.app/',
+            youtubeLink: 'https://www.youtube.com/embed/N2Ph-3-9nA0?si=3Efyj140BTeO_FBv',
+            websiteLink: 'https://hospital-management-system-vnb.vercel.app/',
             githubLink: 'https://github.com/vishnucyblnk/Hmsfrontend'
         },
         {
-            projectName: 'Project Fair',
-            projectDesc: 'Project fair app is a One Stop Destination for all Software Development Projects. Where User can add and manage their projects. As well as access all projects available in our website.',
+            projectName: 'Project Fair App',
+            projectDesc: 'ProjectFair is a comprehensive platform for software developers to add, manage, and showcase their projects. Users can explore and access a wide range of development projects available on the site, making it a one-stop destination for software innovation.',
             projectTools: 'ReactJS,Javascript, NodeJS ,ExpressJS, MongoDB',
             projectImage: pfImage,
-            websiteLink: 'https://project-fair-mern-nine.vercel.app/',
+            youtubeLink: '',
+            websiteLink: 'https://project-fair-vnb.vercel.app/',
             githubLink: 'https://github.com/vishnucyblnk/project-fair-mern'
         },
 
     ]
+    
     return (
         <Row className='fs-5 text-black g-3 mb-4'>    
             <AnimatedDiv><h3 style={{color:'#4b4b4b'}}>A Collection of Project I've Built</h3></AnimatedDiv>
