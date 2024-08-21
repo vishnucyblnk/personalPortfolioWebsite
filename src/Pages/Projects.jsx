@@ -30,7 +30,7 @@ function Projects() {
             projectDesc: 'ProjectFair is a comprehensive platform for software developers to add, manage, and showcase their projects. Users can explore and access a wide range of development projects available on the site, making it a one-stop destination for software innovation.',
             projectTools: 'ReactJS,Javascript, NodeJS ,ExpressJS, MongoDB',
             projectImage: pfImage,
-            youtubeLink: '',
+            youtubeLink: 'https://www.youtube.com/embed/snxsK0WA2Dk?si=_vKeTQupclYpcOdJ',
             websiteLink: 'https://project-fair-vnb.vercel.app/',
             githubLink: 'https://github.com/vishnucyblnk/project-fair-mern'
         },
@@ -55,3 +55,5 @@ function Projects() {
 }
 
 export default Projects
+
+
