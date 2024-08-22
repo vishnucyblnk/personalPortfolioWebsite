@@ -45,7 +45,7 @@ function Projects() {
             projectDesc: `I built a unique multiplayer X-O game in React with a creative twist! Players first set the game size, ranging from 1 to 13, forming a half-pyramid grid of clickable holes. The game begins with Player 1 marking a hole with an "X", followed by Player 2 marking another hole with an "O". The objective is to score by fully occupying rows or columns. When a row or column is completely filled, the size of that row or column is added to the player's score. The game continues until all holes are clicked, and the player with the highest score is declared the winner. This engaging twist on the classic X-O game is both strategic and competitive!`,
             projectTools: 'React, Javascript, CSS3, Bootstrap',
             projectImage: XoGameImage,
-            youtubeLink: '',
+            youtubeLink: 'https://www.youtube.com/embed/nu-XNAyQ2gs?si=LwXG9S-Ju0LKECBi',
             websiteLink: 'https://x-o-game-wine.vercel.app/',
             githubLink: 'https://github.com/vishnucyblnk/X-O_Game'
         },
@@ -54,7 +54,7 @@ function Projects() {
             projectDesc: `I developed a responsive To-Do List app using React with a JSON server as the backend for seamless task management. The app allows users to add, edit, and delete tasks efficiently. Users can also mark tasks as "Done" or "Not Done". Completed tasks are visually represented with a line-through text decoration, making it easy to track progress. The app's intuitive interface ensures smooth interactions, helping you stay organized and productive!`,
             projectTools: 'ReactJS, JSON Server, Javascript, Bootstrap',
             projectImage: ToDoListImage,
-            youtubeLink: '',
+            youtubeLink: 'https://www.youtube.com/embed/RX8ONmgkCTw?si=lHwe80yqxXBIDdGU',
             websiteLink: 'https://todo-list-frontend-iota-ten.vercel.app/',
             githubLink: 'https://github.com/vishnucyblnk/todo-list-frontend'
         },
@@ -115,6 +115,4 @@ function Projects() {
 }
 
 export default Projects
-
-
 
