@@ -12,7 +12,7 @@ function ProjectCard({eachProject}) {
             <h4 className='pt-2 fw-bold text-decoration-underline' style={{color:'#4b4b4b'}}>{projectName}</h4>
             <h6 className='fs-6 text-black'>{projectDesc}</h6>
             <h6 className='fs-6 text-black'>Language Used : <span className='fw-bold'>{projectTools}</span></h6>
-            <div>
+            <div className='someButtons'>
                 <div className='d-flex justify-content-around pb-2'>
                     <Link className="bton1 p-2 " to={websiteLink} target='_blank'>
                         View Website
