@@ -13,7 +13,8 @@ const AnimatedDiv = styled.div`
 
 function About() {
 
-    const resumePdf = 'https://drive.google.com/file/d/1QuAXE8HuMAofummSO17qbH76Br9bMil6/view?usp=sharing';
+    const resumePdf = 'https://drive.google.com/file/d/16OoMgBbaYRJsZCFe5ZnpWUow8ynS_Nfm/view?usp=sharing';
+    
 
     return (
         <>
